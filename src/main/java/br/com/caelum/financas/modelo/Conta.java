@@ -20,7 +20,7 @@ public class Conta {
 
 	private String agencia;
 
-	//GETTER E SETTERS
+	//GETTER E SETTERS ----
 	
 	public Integer getId() {
 		return id;
@@ -65,7 +65,7 @@ public class Conta {
 	@Override
 	public String toString() {
 		return "Conta [id=" + id + ", titular=" + titular + ", numero=" + numero + ", banco=" + banco + ", agencia="
-				+ agencia + "]";
+				+ agencia + "teste]";
 	}
 	
 }
